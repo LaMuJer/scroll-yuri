@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGL</title>
+</head>
+<body>
+
+    <div class="loader">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_ldt1rxg6.json"  background="transparent"
+                       speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+    </div>
+
+    <h1 class="animate__animated animate__fadeInLeft" id="title">SCROLLING</h1>
+    <div class="content-container" data-scroll-container data-scroll-speed="-1" id="loco">
+        <div class="three-container1"  >
+            <div class="inner-container " >
+                <div class="img-box">
+                    <img src="9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, fuga.</p>
+                </div>
+            </div>
+            <div class="inner-container" data-scroll id="con1" >
+                <div class="img-box" >
+                    <img src="ocean3.jpg" alt="" id="img2">
+                </div>
+                <div class="content">
+                    <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, fuga.</p>
+                </div>
+            </div>
+            <div class="inner-container">
+                <div class="img-box">
+                    <img src="4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, fuga.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="three-container2">
+            <div class="inner-container">
+                <div class="img-box">
+                    <img src="6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, fuga.</p>
+                </div>
+            </div>
+            <div class="inner-container" data-scroll id="con2">
+                <div class="img-box">
+                    <img src="5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, fuga.</p>
+                </div>
+            </div>
+            <div class="inner-container">
+                <div class="img-box">
+                    <img src="7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, fuga.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="three-container3">
+            <div class="inner-container last-inner-container" >
+                <div class="img-box">
+                    <img src="angel.jpg" alt="">
+                </div>
+                <div class="content">
+<!--                    <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, fuga.</p>-->
+                </div>
+            </div>
+            <div class="inner-container last-inner-container" data-scroll id="con3">
+                <div class="img-box">
+                    <img src="www18.jpg" alt="">
+                </div>
+                <div class="content">
+                    <p data-scroll class="footer-p">Happy Scrolling</p>
+                </div>
+            </div>
+            <div class="inner-container last-inner-container" >
+                <div class="img-box">
+                    <img src="8.jpg" alt="">
+                </div>
+                <div class="content">
+<!--                    <p data-scroll>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, fuga.</p>-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container" id="container"></div>
+    <script >
+        let loader = document.querySelector(".loader");
+        let title = document.getElementById("title");
+
+        window.addEventListener("load" , vanish)
+
+        function vanish(){
+            loader.classList.add("disappear")
+        }
+
+    </script>
+
+</body>
+</html>

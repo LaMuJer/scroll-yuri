@@ -1,0 +1,9 @@
+{
+  "name": "lettering.js",
+  "version": "0.7.0",
+  "description": "a npm version of lettering js",
+  "main": "index.js",
+  "repository": "https://github.com/mike3run/Lettering.js.git",
+  "author": "Dave Rupert",
+  "license": "MIT"
+}
